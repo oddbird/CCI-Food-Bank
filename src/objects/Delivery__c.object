@@ -227,6 +227,16 @@
         <columns>Supplier__c</columns>
         <columns>Scheduled_Date__c</columns>
         <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Scheduled</value>
+        </filters>
+        <filters>
+            <field>Scheduled_Date__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>TODAY</value>
+        </filters>
         <label>Upcoming</label>
     </listViews>
 </CustomObject>
