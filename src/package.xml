@@ -26,6 +26,7 @@
     </types>
     <types>
         <members>Delivery__c.All</members>
+        <members>Delivery__c.Upcoming</members>
         <name>ListView</name>
     </types>
     <version>47.0</version>
