@@ -211,6 +211,14 @@
         <trackTrending>false</trackTrending>
         <type>Lookup</type>
     </fields>
+    <fields>
+        <fullName>When__c</fullName>
+        <externalId>false</externalId>
+        <label>When</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
     <listViews>
         <fullName>All</fullName>
         <columns>NAME</columns>
@@ -219,24 +227,5 @@
         <columns>Status__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
-    </listViews>
-    <listViews>
-        <fullName>Upcoming</fullName>
-        <columns>NAME</columns>
-        <columns>Status__c</columns>
-        <columns>Supplier__c</columns>
-        <columns>Scheduled_Date__c</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>Status__c</field>
-            <operation>equals</operation>
-            <value>Scheduled</value>
-        </filters>
-        <filters>
-            <field>Scheduled_Date__c</field>
-            <operation>greaterOrEqual</operation>
-            <value>TODAY</value>
-        </filters>
-        <label>Upcoming</label>
     </listViews>
 </CustomObject>

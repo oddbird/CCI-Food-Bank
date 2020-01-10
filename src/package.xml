@@ -8,6 +8,7 @@
         <members>Delivery__c.Scheduled_Date__c</members>
         <members>Delivery__c.Status__c</members>
         <members>Delivery__c.Supplier__c</members>
+        <members>Delivery__c.When__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -26,7 +27,6 @@
     </types>
     <types>
         <members>Delivery__c.All</members>
-        <members>Delivery__c.Upcoming</members>
         <name>ListView</name>
     </types>
     <version>47.0</version>
