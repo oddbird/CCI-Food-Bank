@@ -2,13 +2,13 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>CumulusCI Food Bank Demo</fullName>
     <types>
+        <members>Contact.Example__c</members>
         <members>Delivery_Item__c.Delivery__c</members>
         <members>Delivery_Item__c.Description__c</members>
         <members>Delivery_Item__c.Storage_Requirements__c</members>
         <members>Delivery__c.Scheduled_Date__c</members>
         <members>Delivery__c.Status__c</members>
         <members>Delivery__c.Supplier__c</members>
-        <members>Delivery__c.When__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -21,6 +21,10 @@
         <name>CustomTab</name>
     </types>
     <types>
+        <members>Contact-Contact %28Marketing%29 Layout</members>
+        <members>Contact-Contact %28Sales%29 Layout</members>
+        <members>Contact-Contact %28Support%29 Layout</members>
+        <members>Contact-Contact Layout</members>
         <members>Delivery_Item__c-Delivery Item Layout</members>
         <members>Delivery__c-Delivery Layout</members>
         <name>Layout</name>
