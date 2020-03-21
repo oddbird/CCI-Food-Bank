@@ -5,6 +5,8 @@ project:
         name:  CumulusCI Food Bank Demo
         namespace: ccifb1
         api_version: '47.0'
+    dependencies:
+        - github: "https://github.com/jlantz/Food-Bank"
 
 tasks:
     robot:
