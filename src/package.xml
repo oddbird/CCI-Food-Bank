@@ -8,6 +8,7 @@
         <members>Delivery__c.Scheduled_Date__c</members>
         <members>Delivery__c.Status__c</members>
         <members>Delivery__c.Supplier__c</members>
+        <members>Delivery__c.Test__c</members>
         <name>CustomField</name>
     </types>
     <types>
